@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "servor --reload",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:watch": "vitest --watch",
+    "test:ui": "vitest --ui"
+  },
+  "dependencies": {
+    "servor": "^4.0.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "node-html-parser": "^7.0.1",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.3"
+  }
+}
